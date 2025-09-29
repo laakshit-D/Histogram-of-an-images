@@ -27,7 +27,7 @@ Developed By: LAAKSHIT D
 Register Number: 212222230071
 ```
 ## Input Grayscale Image and Color Image 
-```
+```py
 import cv2
 import matplotlib.pyplot as plt
 gray_image = cv2.imread("GRAY IMAGE.jpg")
@@ -38,7 +38,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## Histogram of Grayscale Image and any channel of Color Image
-```
+```py
 import numpy as np
 import cv2
 Gray_image = cv2.imread("GRAY IMAGE.jpg")
@@ -64,7 +64,7 @@ plt.show()
 cv2.waitKey(0)
 ```
 ## Histogram Equalization of Grayscale Image
-```
+```py
 import cv2
 gray_image = cv2.imread("GRAY IMAGE.jpg",0)
 cv2.imshow('Grey Scale Image',gray_image)
